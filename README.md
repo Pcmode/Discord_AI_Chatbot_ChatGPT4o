@@ -1,5 +1,5 @@
 # Discord_AI_Chatbot_ChatGPT4o
-This is a simple bot integration for using assitance with the new ChatGPT Beta API
+This is a simple Discord chat bot integration for using Assistants with the new ChatGPT Beta API and model CHATGPT4o
 
 # Steps to deploy
 1. Create your ChatGPT account and set up billing. This is required as the program will use the API from ChatGPT to send and process messages in Discord
