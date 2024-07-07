@@ -12,6 +12,7 @@ const discordBotToken = process.env.DISCORD_BOT_TOKEN;
 // Use existing assistant ID
 const assistantId = "asst_ZopXG5HhIGGzFngopIyFECKH";
 
+// Add the target ID of the Discord channel you want the bot to chat in.
 const targetChannelId = "1123750997278339132";
 
 client.once("ready", async () => {
