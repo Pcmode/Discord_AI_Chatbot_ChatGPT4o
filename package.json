@@ -1,0 +1,18 @@
+{
+  "name": "discord-virtual-girlfriend",
+  "version": "1.0.0",
+  "description": "A Discord bot that acts as a virtual girlfriend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^13.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "openai": "^4.52.3"
+  },
+  "author": "",
+  "license": "MIT"
+}
