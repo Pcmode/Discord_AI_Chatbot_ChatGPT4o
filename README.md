@@ -52,7 +52,8 @@ This is a simple Discord chat bot integration for using Assistants with the new 
 
 ##Link to install Discord Bot onto your server
 
-![image](https://github.com/Pcmode/Discord_AI_Chatbot_ChatGPT4o/assets/25157472/1791fa5f-fe9e-47e7-8b4d-7592b36f9115)
+![image](https://github.com/Pcmode/Discord_AI_Chatbot_ChatGPT4o/assets/25157472/6118b927-0dae-427f-b8ea-b9203b795d93)
+
 
 How ChatGPT Assistants: https://platform.openai.com/docs/assistants/how-it-works
  
