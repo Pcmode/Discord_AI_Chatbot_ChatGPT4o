@@ -2,6 +2,9 @@ require("dotenv").config();
 const { Client, Intents } = require("discord.js");
 const axios = require("axios");
 
+console.log("Starting Discord Virtual Girlfriend Bot...");
+
+// Initialize Discord client
 const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
 });
@@ -25,6 +28,16 @@ client.once("ready", async () => {
 // Log errors during login
 client.on("error", (error) => {
   console.error("Discord Bot error:", error);
+});
+
+// Log disconnection events
+client.on("disconnect", (event) => {
+  console.error("Discord Bot disconnected:", event);
+});
+
+// Log any warnings
+client.on("warn", (info) => {
+  console.warn("Discord Bot warning:", info);
 });
 
 client.on("messageCreate", async (message) => {
@@ -156,7 +169,7 @@ client.on("messageCreate", async (message) => {
   }
 });
 
-// Log successful login
+// Log successful login and catch errors
 client.login(discordBotToken).then(() => {
   console.log("Discord Bot successfully logged in.");
 }).catch((error) => {
